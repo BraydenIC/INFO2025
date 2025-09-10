@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>Web Site Critiques – Project 1 (Brayden Carlson)</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    :root {
+      --accent: #b11226;
+      --bg: #faf9f7;
+      --ink: #212121;
+    }
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--ink);
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      line-height: 1.6;
+    }
+    header {
+      background: var(--accent);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      border-bottom: 6px solid #7e0d1b;
+    }
+    main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    h1, h2, h3 { margin-top: 1.2rem; }
+    a { color: var(--accent); }
+    .card {
+      background: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 24px rgba(0,0,0,.07);
+      padding: 1.2rem 1.4rem;
+      margin: 1rem 0;
+    }
+    ol, ul { padding-left: 1.25rem; }
+    footer { text-align:center; padding: 2rem 1rem; color: #666; }
+    .meta { font-size: .95rem; color: #555; }
+    .answer-list > li { margin: .75rem 0; }
+    .visually-hidden { position:absolute; left:-10000px; top:auto; width:1px; height:1px; overflow:hidden; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Web Site Critiques</h1>
+    <p class="meta">INFO 2450 – Project 1 • Author: Brayden Carlson • Date: September 10, 2025</p>
+  </header>
+
+  <main>
+    <section class="card" aria-labelledby="question-list-heading">
+      <h2 id="question-list-heading">Question List</h2>
+      <p>Use the following prompts to evaluate the selected web site:</p>
+      <ol>
+        <li>What was your first impression of this site?</li>
+        <li>How does this site organize the flow of information?</li>
+        <li>Does the site structure make sense or does it confuse you? Why?</li>
+        <li>Do the graphics/layout/multimedia enhance the site or detract from it? Why?</li>
+        <li>How long did it take for the home page to load? Was the load time reasonable?</li>
+        <li>Was the text color and size readable? If a background was used, did it help or hurt?</li>
+        <li>Did the site have a navigation bar or other navigation tool? Was it well done?</li>
+        <li>Did the site have a color scheme or look &amp; feel repeated on all pages?</li>
+        <li>How does the site respond to smaller window sizes (responsive design)?</li>
+        <li>What does this site offer that was unusual or very well done?</li>
+      </ol>
+    </section>
+
+    <section class="card" aria-labelledby="tj-heading">
+      <h2 id="tj-heading">Trader Joe’s – <a href="https://www.traderjoes.com/" target="_blank" rel="noopener">https://www.traderjoes.com/</a></h2>
+      <p class="meta">Reviewed on September 10, 2025 using a laptop browser (desktop viewport) and a phone (mobile viewport).</p>
+
+      <ol class="answer-list">
+        <li><strong>Q1 – First impression:</strong> Friendly, upbeat, and approachable. The homepage highlights seasonal items with large, high-quality images and playful illustrations that match the brand’s personality. The overall feel is welcoming and informal rather than corporate.</li>
+
+        <li><strong>Q2 – Information flow:</strong> Primary navigation appears at the top with clear categories (e.g., Products, Recipes, Stores, Podcasts/News). Below that, the homepage uses hero sections and card-style tiles to route you to featured content. Calls-to-action are short and obvious.</li>
+
+        <li><strong>Q3 – Site structure sense:</strong> The structure is logical: top-level categories lead to browsable listings with filters; detail pages use consistent headings, images, and ingredient or description blocks. Breadcrumbs and “Back to results” links reduce getting lost.</li>
+
+        <li><strong>Q4 – Graphics/layout/multimedia:</strong> Art direction is consistent with Trader Joe’s in-store vibe (hand-drawn accents and bright product shots). Graphics enhance scannability and do not overwhelm text. Multimedia is lightweight and complements the content.</li>
+
+        <li><strong>Q5 – Load time:</strong> Pages are image-heavy but optimized; on a typical broadband connection they load quickly and remain responsive after initial paint. Caching appears effective when navigating between product and recipe pages.</li>
+
+        <li><strong>Q6 – Readability &amp; backgrounds:</strong> Text contrasts well against light backgrounds, with generous font sizing and spacing. Body text is easy to read; headings are bold without being overpowering. Backgrounds are mostly white or light neutral tones that keep focus on content.</li>
+
+        <li><strong>Q7 – Navigation quality:</strong> The sticky top navigation and prominent search box make it easy to jump between tasks (finding a product, a recipe, or a nearby store). Footer navigation mirrors key links for redundancy. Overall, navigation is clear and consistent.</li>
+
+        <li><strong>Q8 – Consistent look &amp; feel:</strong> The brand’s red accents, hand-lettered style headings, and illustration style repeat across pages. Buttons, cards, and spacing follow a consistent visual system which helps recognition and speeds up browsing.</li>
+
+        <li><strong>Q9 – Responsive design:</strong> On smaller screens, the navigation collapses into a mobile menu. Cards stack vertically, images resize, and interactive elements remain finger-friendly with adequate touch targets. Content remains complete without awkward horizontal scrolling.</li>
+
+        <li><strong>Q10 – Notable strengths:</strong> The integrated recipe ecosystem (linking products to recipes), the personable editorial tone (e.g., “Fearless Flyer”-style content), and the store locator together create a shopping-plus-inspiration experience that goes beyond a basic grocery catalog.</li>
+      </ol>
+    </section>
+
+    <section class="card">
+      <h2>Submission Notes</h2>
+      <ul>
+        <li>This document uses semantic HTML (header, main, section, footer), headings, lists, links, and basic CSS from Chapters 1, 2, 4, and 5 concepts.</li>
+        <li>Save this file as <code>.htm</code> (already done) and upload to Canvas. Also post a link to it on your course home page per the assignment.</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Brayden Carlson • INFO 2450 Project 1</p>
+  </footer>
+</body>
+</html>
